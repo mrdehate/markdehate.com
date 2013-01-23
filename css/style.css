@@ -1,0 +1,92 @@
+body, html {
+  height: 100%; }
+
+body {
+  font-family: "Crimson Text", Verdana, sans-serif;
+  background-color: gray;
+  background-color: black;
+  margin: 0; }
+
+h1 {
+  font-size: 4em;
+  margin: 0px;
+  text-align: center;
+  font-weight: normal; }
+  @media only screen and (max-width: 780px), only screen and (max-device-width: 1024px) {
+    h1 {
+      font-size: 3em; } }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0px;
+  text-align: center;
+  font-weight: normal; }
+  @media only screen and (max-width: 780px), only screen and (max-device-width: 1024px) {
+    h2 {
+      font-size: 2em; } }
+
+a, a:visited {
+  color: #00cccc; }
+
+#detailColumn {
+  width: 400px;
+  background-color: #ddd;
+  background-color: rgba(221, 221, 221, 0.7);
+  background-color: rgba(60, 60, 60, 0.7);
+  color: #eee;
+  margin: 20px;
+  border-radius: 15px;
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 20px; }
+  @media (min-width: 1545px) {
+    #detailColumn {
+      position: absolute;
+      left: 1050px; } }
+  @media only screen and (max-width: 780px), only screen and (max-device-width: 1024px) {
+    #detailColumn {
+      width: auto;
+      margin: 10px;
+      float: none;
+      position: relative;
+      top: auto;
+      right: auto;
+      left: auto;
+      font-size: 2em; } }
+
+.social {
+  margin: 5px;
+  vertical-align: middle; }
+
+#myLinks {
+  list-style-type: none;
+  padding-left: 0; }
+
+#myLinks li {
+  display: inline; }
+
+.md_image {
+  margin: 30px; }
+  @media only screen and (max-width: 780px), only screen and (max-device-width: 1024px) {
+    .md_image {
+      width: 100%;
+      margin: 0px; } }
+  @media only screen and (min-width: 781px) and (max-width: 1024px) and (min-device-width: 1024px) {
+    .md_image {
+      position: absolute;
+      left: -300px; } }
+
+@media only screen and (max-width: 780px), only screen and (max-device-width: 1024px) {
+  .img_wrapper {
+    border: 10px solid black;
+    border-radius: 25px;
+    overflow: none; } }
+@media only screen and (min-width: 781px) and (max-width: 1024px) and (min-device-width: 1024px) {
+  .img_wrapper {
+    position: relative;
+    margin-left: 30px;
+    overflow: hidden;
+    width: 1000px;
+    height: 1000px; } }
